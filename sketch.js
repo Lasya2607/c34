@@ -24,7 +24,12 @@ function setup(){
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
    
-    box5 = new Box(810,160,70,70);
+    box5 = new Box(700,160,70,70);
+    box6 = new Box(920,160,70,70);
+
+    box7 = new Box(810,320,70,70);
+    box8 = new Box(810,240,70,70);
+    box9 = new Box(810,160,70,70);
     
     bird = new Bird(200,50);
 
@@ -49,6 +54,11 @@ function draw(){
     
 
     box5.display();
+    box6.display();
+
+    box7.display();
+    box8.display();
+    box9.display();
     
     bird.display();
    
